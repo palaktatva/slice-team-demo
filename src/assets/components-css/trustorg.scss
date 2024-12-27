@@ -1,0 +1,32 @@
+.trust-organization-section{    
+    .trust-organization-block{
+        padding: 70px 0;
+        background-color: var(--trustOrg-bg);
+        border-radius: 36px;
+    }
+    .title-block{
+        text-align: center;  
+        margin-bottom: 40px; 
+        span{
+            font-weight: 500;
+            max-width: 500px;
+            line-height: 1.25;
+        }     
+    }
+    .swipper-block{
+        padding: 40px 0 20px;
+        .swiper-wrapper{
+            align-items: center;
+            .swiper-slide{
+               .image-block{             
+                  img{
+                    height: 100%;
+                    width: 100%;
+                    max-height: 60px;
+                  }
+               }
+            }
+        }
+    }
+}
+

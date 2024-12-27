@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Kumbh+Sans:wght@100..900&family=Roboto:wght@400;500;700&display=swap');
+
+.tab-content-block{
+    .MuiBox-root{
+        padding: 0;
+    }
+}
+.MuiTabs-root{
+    .MuiTabs-flexContainer{
+        justify-content: center;
+        gap: 16px;
+        button{
+            text-decoration: none;
+            display: inline-block;
+            padding: 0 25px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.8;
+            border: 1px solid var(--blue-btn-bg);
+            color: var(--font-color);
+            border-radius: 50px;
+            line-height: 50px;
+            font-family: "Kumbh Sans", serif !important;
+            text-transform: capitalize;
+            &.Mui-selected{
+                color: var(--white);
+                background-color: var(--blue-btn-bg);
+                border-color: transparent;
+            }
+        }
+        
+    }
+    .css-1qltlow-MuiTabs-indicator{
+        display: none;
+    }
+}

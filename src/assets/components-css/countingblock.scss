@@ -1,0 +1,98 @@
+.counting-section{
+    padding: 80px 0;
+    .counting-block{
+        display: flex;
+        flex-wrap: wrap;
+        .image-block{
+            flex: 0 0 calc(50% - 115px);
+            max-width:calc(50% - 115px);
+            margin-right: 115px;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .content-block{
+            flex: 0 0 50%;
+            max-width: 50%;
+            margin-top: 20px;
+            span{
+                font-weight: 500;
+                line-height: 1.25;
+            }
+        }
+    }
+    .swipper-block{
+        margin-top: -135px;
+        .rating-block{
+            box-shadow: 0px 2.88736px 8.66209px rgba(13, 10, 44, 0.06);
+            border: 1px solid var(--border-color-1);
+            border-radius: 22px;
+            padding: 34px 20px;
+            background-color: var(--white);
+            .ratting{
+                display: flex;
+                list-style-type: none;
+                margin-bottom: 25px;
+                li{
+                    &:not(:last-child){
+                        margin-right: 4px;
+                    }
+                    em{
+                        display: block;
+                    }
+                }
+            }
+            h3{
+                color: var(--counting-heading-color);
+                font-size: 24px;
+                margin-bottom: 5px;
+            }
+            .ratting-content{
+                font-size: 18px;
+                color: var(--counting-font-color);
+                line-height: 1.6;
+                padding-bottom: 25px;
+                margin-bottom: 39px;
+                border-bottom: 1px solid var(--counting-border-color);
+            }
+            .name-block{
+                span{
+                    font-weight: 700;
+                    margin-bottom: 8px;
+                    color: var(--counting-heading-color);
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+        } 
+        .swiper{
+            padding-bottom: 130px;
+        }
+        .swiper-button-prev, .swiper-button-next{
+            bottom: 10px;
+            top: unset;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--slider-arrow-color);
+            height: 65px;
+            width: 65px;
+            border-radius: 50%;
+            background-color: var(--trustOrg-bg);
+            &.swiper-button-disabled{
+                opacity: 1;
+                &::after{
+                    opacity: 0.35;
+                }
+            }
+        } 
+        .swiper-button-prev::after, .swiper-button-next::after{
+            font-size: 28px;
+        }
+        .swiper-button-next{
+            margin-left: 85px;
+            
+        }
+    }
+}
