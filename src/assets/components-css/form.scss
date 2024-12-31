@@ -34,3 +34,81 @@
         display: none;
     }
 }
+.contact-us-section{
+    .form-group{
+        label{
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--contact-section-heading-color);
+            margin-bottom: 17px;
+            font-family: "Kumbh Sans", serif !important;
+        }
+        .MuiInputBase-input{
+            color: var(--placeholder-color);
+            font-size: 16px;
+            font-weight: 400;
+            background-color: var(--textfild-bg);
+            border-radius: 8px;
+            padding: 15px 16px 16px;
+            border: 1px solid var(--textfild-border-color);
+            font-family: "Kumbh Sans", serif !important;
+        }
+        .MuiOutlinedInput-notchedOutline{
+            display: none;
+        }
+        .MuiInputBase-formControl{
+            padding: 0;
+        }
+    }
+
+}
+
+.btn{
+    display: inline-block !important;
+    padding: 8px 33px 9px 33px !important;
+    color: var(--white) !important;
+    background-color: var(--yellow-btn-bg) !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    line-height: 1.9 !important;
+    border: 1px solid var(--yellow-btn-bg) !important;
+    transition: 0.5s all !important;
+    box-shadow: none !important;
+    text-transform: capitalize !important;
+    font-family: "Kumbh Sans", serif !important;
+    font-size: 19px !important;
+    &:hover{
+        color: var(--yellow-btn-bg) !important;
+        background-color: var(--white) !important; 
+    }
+    &.blue-btn{
+        background-color: var(--blue-btn-bg) !important;  
+        border-color:var(--blue-btn-bg) !important ;      
+        padding: 10px 33px !important;
+        &:hover{
+            color:var(--blue-btn-bg) !important ;
+            background-color: var(--white) !important;
+        }
+    }
+    &.white-btn{
+        background-color: var(--white) !important;
+        border-color:var(--white) !important ;      
+        color: var(--btn-text-color) !important;  
+        &:hover{
+            color:var(--white) !important ;
+            border-color:var(--white) !important ;    
+            background-color: transparent !important;
+        }
+    }
+    .MuiTouchRipple-root{
+        display: none;
+    }
+}
+.breadcrumb-block{
+    .MuiBreadcrumbs-li{
+        color: var(--breadcrumb-font-color);
+        font-size: 16px;
+        font-weight: 500;
+        font-family: "Kumbh Sans", serif !important;
+    }
+}

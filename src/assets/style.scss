@@ -5,15 +5,21 @@
 @import './global/mixins';
 
 // Pages
-@import 'components-css/homepage';
-@import 'components-css/casestudy';
-@import 'components-css/trustorg';
-@import 'components-css/countingblock';
-@import 'components-css/Getstarted';
+@import 'components-css/homePage';
 
-@import 'components-css/form'
 
 // Components
 
+@import 'components-css/research';
+@import 'components-css/whatWeOfferGrid';
+@import 'components-css/caseStudy';
+@import 'components-css/trustOrganization';
+@import 'components-css/countingBlock';
+@import 'components-css/getStarted';
+@import 'components-css/form';
+@import 'components-css/banner';
+@import 'components-css/contactUs';
+@import 'components-css/marketAnalysis';
+@import 'components-css/industryBlock';
 
 // Layout

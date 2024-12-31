@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import casestudyimg_1 from '../assets/images/casestudy-img-1.jpg';
 import casestudyimg_2 from '../assets/images/casestudy-img-2.jpg';
 import casestudyimg_3 from '../assets/images/casestudy-img-3.jpg';
@@ -42,8 +43,7 @@ export default function Casestudy() {
       setValue(newValue);
     };
   
-    return (
-      <>
+    return (      
         <section className='case-study-section'>        
         <div className="container">
                 <div className="title-block">
@@ -113,7 +113,8 @@ export default function Casestudy() {
                            
                         </div>
                         <div className="button-wrapper">
-                            <a href="#" className='btn'>Load More Case Study..</a>
+                            {/* <a href="#" className='btn'>Load More Case Study..</a> */}
+                            <Button variant="outlined" className='btn'>Load More Case Study.. </Button>
                         </div> 
                     </CustomTabPanel>
                     <CustomTabPanel className="tab-content" value={value} index={1}>
@@ -129,6 +130,5 @@ export default function Casestudy() {
                 </Box>         
         </div>        
        </section>
-      </>
     );
   }

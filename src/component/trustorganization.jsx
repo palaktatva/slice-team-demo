@@ -37,8 +37,7 @@ const Trustorganization = () => {
                   <SwiperSlide><div className="image-block"><img src={sony_logo} alt="sony_logo" /></div></SwiperSlide>                
               </Swiper>
           </div>          
-        </div>
-        
+        </div>        
     </section>
   )
 }

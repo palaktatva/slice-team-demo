@@ -12,8 +12,7 @@ const GetStarted = () => {
                 <div className="image-block">
                     <img src={getStarted_img} alt="getStarted-img" />
                 </div>
-            </div>
-            
+            </div>            
         </div>
    </section>
   )

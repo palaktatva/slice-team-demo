@@ -1,0 +1,88 @@
+.what-we-offer-section{
+    padding: 77px 0;
+    background-color: #F8F8F8;
+    .title-block{
+        text-align: center;
+        max-width: 740px;
+        margin: 0 auto;
+        p{
+            line-height: 1.5;
+            color: var(--heading-font-color);
+            margin-bottom: 60px;
+        }
+    }
+    .what-we-offer-grid{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -14px -28px;
+        .grib-block{
+            flex: 0 0 33.33%;
+            max-width: 33.33%;
+            border: 1px solid transparent;
+            padding: 0 14px 28px;
+            &.has-col-2{
+                flex: 0 0 66.67%;
+                max-width: 66.67%;
+            }
+            .grib-inner-block{
+                position: relative;
+                border: 1px solid transparent;
+                border-image: linear-gradient(#3171DE 0%, #4AC0F2 100%) 1;
+                .background-img{
+                    position: absolute;
+                    inset: 0;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .grid-content{
+                    min-height: 394px;
+                    max-width: 446px;
+                    position: relative;
+                    z-index: 1;
+                    padding: 32px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;                   
+                    &.has-white-text{
+                        h3{
+                            color: var(--white);
+                        }
+                        p{
+                            color: var(--white);
+                        }
+                    }
+                    &.align-item-start{
+                        justify-content: flex-start;
+                    }
+                    &.align-item-center{
+                        justify-content: center;
+                    }
+                    h3{
+                        color: var(--black);
+                        font-weight: 600;
+                        font-size: 26px;
+                        margin-bottom: 10px;  
+                        line-height: 1.2;                    
+                    }                   
+                        p{
+                            font-size: 14px;
+                            line-height: 1.714;
+                            color: var(--black);
+                        }                      
+                }
+            }
+        }
+    }
+    .button-wrapper{
+        text-align: center;
+        margin-top: 56px;
+      button{
+        + button{
+            margin-left: 12px;
+        }
+      }
+    }
+}

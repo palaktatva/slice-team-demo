@@ -1,0 +1,45 @@
+.secondary-research-section{
+    padding: 136px 0;
+    position: relative;
+    .research-content-wrapper{
+        display: flex;
+        .image-block{
+            flex: 0 0 630px;
+            max-width: 630px;
+        }
+        .content-block{
+            flex: 0 0 calc(100% - 630px);
+            max-width: calc(100% - 630px);
+            padding-left: 100px;
+            margin-top: 30px;
+        }
+    }
+    .breadcrumb-block{
+        position: absolute;
+        left: 0 ;
+        right: 0;
+        background-color: var(--breadcrumb-bg);
+        padding: 24px 24px 24px 100px;
+        top: 20px;
+    }
+    h2{
+        margin-bottom: 38px;
+    }
+    .content{
+        margin-bottom: 42px;
+        p{
+            font-weight: 500; 
+            line-height: 1.25;
+            + p{
+                margin-top: 5px;
+            }
+        }
+    }
+    .button-wrapper{
+        button{
+            + button{
+                margin-left: 12px;
+            }
+        }
+    }
+}

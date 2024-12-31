@@ -12,7 +12,7 @@
 .getstarted-section{
     padding: 70px 0;
     .getstarted-block{
-        padding: 100px 0 295px;
+        padding: 106px 0 295px;
         background: linear-gradient(to right, #062994, #5E5DEF);
         position: relative;
         border-radius: 35px;
@@ -22,15 +22,16 @@
             color: var(--white);
             max-width: 900px;
             margin: 0 auto;
-            margin-bottom: 30px;
+            margin-bottom: 47px;
             text-align: center;
+            line-height: 1.4;
         }
         .button-wrapper{
             text-align: center;
         }
         .image-block{
             position: absolute;
-            bottom: -227px;
+            bottom: -194px;
             left: 50%;
             transform: translateX(-50%);
         }
